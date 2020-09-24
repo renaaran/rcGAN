@@ -15,3 +15,11 @@ cd rcGAN/
 This code requires PyTorch 1+ and python 3+. 
 
 All models were trained on an NVIDIA GeForce RTX 2080 Ti.
+
+## Training New Models
+
+New models can be trained with the following commands.
+
+```bash
+python randomly_conditioned_dcgan.py --inputImagePath=[path to source image] --outputFolder=[output folder]
+```
