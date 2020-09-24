@@ -23,3 +23,4 @@ New models can be trained with the following commands.
 ```bash
 python randomly_conditioned_dcgan.py --inputImagePath=[path to source image] --outputFolder=[output folder] --epochs=[number of epochs]
 ```
+The program generates intermediate samples on every epoch in the output folder as also checkpoints on every 50 epochs.
