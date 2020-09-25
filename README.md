@@ -21,6 +21,6 @@ All models were trained on an NVIDIA GeForce RTX 2080 Ti.
 New models can be trained with the following commands.
 
 ```bash
-python randomly_conditioned_dcgan.py --inputImagePath=[path to source image] --outputFolder=[output folder] --epochs=[number of epochs]
+python randomly_conditioned_dcgan.py --inputImagePath=[path to source image] --outputFolder=[output folder] --epochs=[number of epochs] --gpu_id=[gpu id]
 ```
 The program generates intermediate samples on every epoch in the output folder as also checkpoints on every 50 epochs.
