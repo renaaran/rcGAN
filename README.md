@@ -30,7 +30,7 @@ The program generates intermediate samples on every epoch in the output folder a
 After training the model on an image we are ready to synthesise samples.
 
 ```bash
-python gan_image_quilting.py --inputImagePath [path to source image, same used to train the model]--outputFolder [output folder] --numberOfTiles [height] [widht] --n [number of images to synthesise] --modelPath [generator model path]
+python gan_image_quilting.py --inputImagePath [path to source image, same used to train the model] --outputFolder [output folder] --numberOfTiles [height] [widht] --n [number of images to synthesise] --modelPath [generator model path]
 ```
 
 The example below generates five images, each having five blocks height and eight blocks width.
